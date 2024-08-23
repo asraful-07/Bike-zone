@@ -168,6 +168,21 @@
     <!-- main section code -->
     <main class="md:container mx-auto"> 
 
+      <!-- card section code -->
+       <section class="mb-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div>
+          <img src="images/slider/bike1.png" alt="">
+        </div>
+        <div>
+          <img src="images/slider/bike2.png" alt="">
+        </div>
+        <div>
+          <img src="images/slider/bike3.png" alt="">
+        </div>
+      </div>
+       </section>
+
       <!-- latest News section code -->
       <section class="mb-24">
         <h3 class="text-center text-5xl font-bold mb-12">latest News</h3>
@@ -229,14 +244,14 @@
        </div>
       </section>
        
-      <!-- Frequently Asked section  code -->
+      <!-- Frequently Asked section code -->
        <section class="mb-24">
         <h3 class="text-center text-5xl font-bold mb-12">Frequently Asked <span class="text-orange-400 ">Questions</span></h3>
-        <div class="hero bg-base-200 min-h-screen">
+        <div class="hero bg-base-200">
           <div class="hero-content flex-col lg:flex-row">
             <img
               src="images/others/faq.png"
-              class="max-w-sm rounded-lg" />
+              class="w-full rounded-lg" />
               <div class="space-y-4">
                 <div class="collapse collapse-arrow border border-blue-300">
                   <input type="radio" name="my-accordion-2" checked="checked" />
@@ -272,5 +287,46 @@
         </div>
        </section>
     </main>
+    
+    <!-- footer section code -->
+      <footer class="bg-base-200">
+        <div class="footer text-base-content p-10 container mx-auto">
+          <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+          <form>
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label>
+              <div class="join">
+                <input
+                  type="text"
+                  placeholder="username@site.com"
+                  class="input input-bordered join-item" />
+                <button class="btn btn-primary join-item">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </footer>
   </body>
 </html>
